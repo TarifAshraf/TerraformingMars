@@ -169,10 +169,13 @@ public enum GameType {
             Arrays.asList(Strategy, Cards),
             Arrays.asList(Memory, GridMovement, ModularBoard),
             CatanGameState.class, CatanForwardModel.class, CatanParameters.class, CatanGUI.class),
+
+//    DO NOT DELETE ------------------------------------------
     TerraformingMars(1, 5,
             Arrays.asList(Economic, Environmental, Manufacturing, TerritoryBuilding, Cards, Strategy, Exploration),
             Arrays.asList(Drafting, EndGameBonus, HandManagement, HexagonGrid, Income, SetCollection, TakeThat, TilePlacement, ProgressiveTurnOrder, VariablePlayerPowers, EngineBuilding, TableauBuilding),
             TMGameState.class, TMForwardModel.class, TMGameParameters.class, TMGUI.class),
+//    ---------------------------------------------------------
     Stratego(2, 2,
             Arrays.asList(Strategy, Bluffing, Deduction, Abstract),
             Arrays.asList(Memory, GridMovement),
